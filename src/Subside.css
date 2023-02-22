@@ -1,0 +1,221 @@
+.box {
+  float: left;
+  background-color: white;
+  border-radius: 15px;
+  padding: 1.9rem;
+  margin-left: 2rem;
+  height: fit-content;
+  border: 1px solid rgb(235, 232, 232);
+}
+.sub-box-1 {
+  height: 35px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  border-radius: 7px;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+}
+.sub-box-1 span {
+  padding: 1rem;
+}
+.sub-box-1:hover {
+  cursor: pointer;
+  background: #ffffff;
+  filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+}
+svg:hover path {
+  fill: #ff844b;
+}
+.sub-box-2:hover {
+  cursor: pointer;
+  background: #ffffff;
+  border-radius: 7px;
+  filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+}
+.sub-box-2 {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+h6 {
+  font-size: 14px;
+}
+.icons {
+  height: 25px;
+  padding: 0.1rem;
+  margin-top: 15px;
+  padding-right: 1rem;
+}
+.label-font {
+  color: black;
+}
+.add-mail {
+  font-size: 16px;
+  padding: 0.3rem;
+  width: 8.5rem;
+  background-color: #ff844b;
+  border-radius: 7px;
+  border: 1px solid #ff844b;
+  cursor: pointer;
+  color: white;
+}
+
+/* ------------------------------------------------navaigation-------------------------------------------------------------------------------- */
+
+.main-header {
+  padding-left: 2.5rem;
+  display: flex;
+}
+.nav {
+  padding-bottom: 2rem;
+}
+.alert2 {
+  position: absolute;
+  border: 1px solid orange;
+  width: 15px;
+  height: 1rem;
+  border-radius: 3px;
+  background-color: #ff844b;
+  margin-left: 1.2rem;
+  margin-top: -2.9rem;
+}
+.email {
+  color: black;
+}
+.alert-total-3 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.alert3 {
+  position: absolute;
+  border: 1px solid orange;
+  width: 15px;
+  height: 1rem;
+  border-radius: 3px;
+  background-color: #ff844b;
+  margin-left: 22px;
+  margin-top: -3rem;
+}
+.notify {
+  position: absolute;
+  color: white;
+  font-size: 10px;
+  margin-left: 5px;
+  font-weight: 80px;
+}
+.admin-name img {
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+}
+.admin-name-1 img {
+  position: absolute;
+  margin-left: 5rem;
+}
+.header-1 {
+  padding-left: 9rem;
+  font-size: 15px;
+  font-family: Cairo;
+  color: #6f96aa;
+}
+.header-2 {
+  padding-left: 9rem;
+  font-family: Cairo;
+  font-size: 12px;
+  color: #6f96aa;
+}
+.heading-1 {
+  display: flex;
+  padding-left: 9rem;
+  padding-top: 2rem;
+  cursor: pointer;
+}
+.space path {
+  fill: #6f96aa;
+}
+
+/* ------------------------------------------------search-------------------------------------------------------------------------------------*/
+
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 15px;
+  position: relative;
+  float: right;
+  padding-left: 50px;
+  height: 20px;
+  width: 50%;
+  border-radius: 10px;
+  color: black;
+  margin-bottom: 2rem;
+  border: 1px solid rgb(255, 255, 255);
+}
+.search-icon {
+  padding-left: 19.5rem;
+  padding-top: 0.5rem;
+  position: absolute;
+}
+
+/* ----------------------------------------card----------------------------------- */
+
+.content-box {
+  margin-top: 2rem;
+  padding-top: 0.5rem;
+  padding: 0.5rem;
+  width: 395px;
+  height: 135px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+}
+.content-box1 {
+  padding: 0.5rem;
+  width: 395px;
+  height: 135px;
+  border: 1px solid #e3ebf1;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: #e3ebf1;
+  display: flex;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+}
+.content-box2 {
+  padding: 0.5rem;
+  width: 395px;
+  height: 135px;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: white;
+  display: flex;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.425);
+}
+
+.square-img img {
+  width: 65px;
+  height: 65px;
+  padding: 0.5rem;
+  border-radius: 15px;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.scroll {
+  width: 27rem;
+  height: 39rem;
+  overflow: scroll;
+  margin-left: 18rem;
+}
+.para {
+  padding-top: 10px;
+  margin-left: 15px;
+  font-size: 12px;
+}
+.card-h5 {
+  padding: 0.5rem;
+  color: black;
+}
