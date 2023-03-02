@@ -3,19 +3,28 @@
 * {
   margin: 0px;
   padding: 0;
-  font-family: Cairo;
-  color: #6f96aa;
 }
-.body1{
-    background: linear-gradient(
-      to right,
-      #f1f6fa 60%,
-      #f1f6fa 50%,
-      white 59%,
-      white 100%
-    ); 
+.main-container{
+  background: #f1f6fa;
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: Cairo;
+    color: #6f96aa;
 }
 ::-webkit-scrollbar {
   display: none;
+}
+
+@media screen and (max-width: 1087px) {
+  .left-sidebar{
+     position: relative;
+    height: auto; 
+
+  }
+  .right-content{
+    position: absolute;
+    margin-top: 55rem;
+  }
+
 }

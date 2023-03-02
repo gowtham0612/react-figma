@@ -1,10 +1,9 @@
-.main-side{
+.left-sidebar{
     display: flex;
     flex-direction: column;
     border: 1px solid rgb(235, 232, 232);
-    margin-left: 0.8rem;
-    padding: 1.2rem;
-    background-color: white;
+    padding: 0.8rem;
+    background-color: #ffffff;
   }
   .main-logo{
     padding-bottom: 1rem;
@@ -22,3 +21,27 @@
   .img-1:hover path{
     fill: #FF844B;
   } 
+
+/*  ........................................resp........................................... */
+@media only screen and (max-width: 300px) {
+  
+  
+}
+
+
+@media only screen and (max-width: 480px) {
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+}
+
+
+
+@media only screen and (max-width: 1284px) {
+
+}    

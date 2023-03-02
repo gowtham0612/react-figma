@@ -4,7 +4,7 @@ import '../Sidebar.css';
 const Sidebar = () => {
   return (
     
-        <div className="main-side">
+        <div className="left-sidebar">
         <svg
         className="main-logo"
           width="60"
@@ -24,7 +24,7 @@ const Sidebar = () => {
           <rect
             x="0.5"
             y="0.5"
-            width="59"
+            width="59" 
             height="59"
             rx="19.5"
             stroke="black"
