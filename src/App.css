@@ -7,24 +7,28 @@
 .main-container{
   background: #f1f6fa;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     flex-direction: row;
     font-family: Cairo;
     color: #6f96aa;
+    /* flex-wrap: wrap; */
 }
 ::-webkit-scrollbar {
   display: none;
 }
-
-@media screen and (max-width: 1087px) {
-  .left-sidebar{
-     position: relative;
-    height: auto; 
-
-  }
-  .right-content{
-    position: absolute;
-    margin-top: 55rem;
-  }
-
+.main-container-flex{
+  display: flex;     
 }
+
+@media screen and (max-width: 1157px) {
+  .right-content{
+    width: -webkit-fill-available;
+  }
+  .main-container{
+    flex-wrap: wrap;
+    width: -webkit-fill-available;
+  }
+  
+}
+@media only screen and (max-width: 557px) {}

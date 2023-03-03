@@ -1,15 +1,12 @@
 .middle-content{
   /* flex-basis: 50rem; */
-  flex-wrap: nowrap !important;
-  padding: 10px;
-  
-  
+  padding: 10px; 
 }
 .sub-middle-card{
   display: flex;
   flex-direction: column;
   padding: 1rem;
-  padding-right: 0px;
+  margin-right: 0px;
 }
 .box {
   float: left;
@@ -90,7 +87,7 @@ h6 {
   justify-content: space-around;
  
 }
-.sub-kk{
+.sub-head{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -181,30 +178,68 @@ form.example input[type="text"] {
 
 /* ----------------------------------------Responsive----------------------------------- */
 /*  ........................................resp........................................... */
-@media only screen and (max-width: 300px) {
-  
-  
-}
 
-
-@media only screen and (max-width: 480px) {
-
-
-}
-
-
-@media only screen and (max-width: 768px) {
-
-}
-
-
-
-@media only screen and (max-width: 1284px) {
-
- 
+@media only screen and (max-width: 557px) {
+  form.example input[type="text"] {
+    font-size: 12px;
+    max-width: 150%;
+  }
+  .sub-heading-1{
+    width: -webkit-fill-available;
+  }
+  h1{
+    font-size: 25px;
+  }
+  .sub-head svg{
+     width: 28px;
+  }
+  .alert3 {
+    margin-left: 19px;
+  }
+  .admin-name img{
+    width: 35px;
+    height: 35px;
+  }
+  .header-1{
+    font-size: 9px;
+  } 
+  .header-2{
+    font-size: 8px;
+  }
+  .nav{
+    padding-top: 3px;
+  }
+  .box{
+    padding: 0.5rem;
+  }
+  .search-bar{
+    width: max-content;
+  }
+  .middle-content{
+    padding: 0.2rem;
+  }
+  .sub-head{
+    width: 100%;
+  }
 }    
 
-@media only screen and (max-width: 668px) {
-
-  
+@media only screen and (max-width: 676px) {
+.label,h6{
+  display: none;
 }
+.box{
+  width: 2.5rem;
+}
+.add-mail{
+  width: 2rem;
+}
+.button-mail{
+  padding-left: 4px;
+ 
+}
+.label-icon{
+  padding-left: 5px;
+}
+}
+
+/* 425px-m,375px-m,320px-m */

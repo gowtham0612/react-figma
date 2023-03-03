@@ -3,6 +3,7 @@
     flex-direction: column;
     border: 1px solid rgb(235, 232, 232);
     padding: 0.8rem;
+    width: 4rem;
     background-color: #ffffff;
   }
   .main-logo{
@@ -23,25 +24,39 @@
   } 
 
 /*  ........................................resp........................................... */
-@media only screen and (max-width: 300px) {
-  
-  
+
+@media only screen and (max-width: 676px) {
+.left-sidebar{
+  padding: 0.2rem;
+}
+}
+@media only screen and (max-width: 557px) {
+  .main-logo{
+    padding-bottom: 0rem;
+    width: 100%;
+  }
+  .img-1{
+   padding: 1rem;
+   padding-left: 0rem;
+   float: left;
+   width: 100%;
+  }
+  .left-sidebar{
+    width: 5rem;
+    padding: 0.8rem;
+    /* display: none; */
+  }
+}  
+
+@media only screen and (max-width: 385px) {
+  .left-sidebar{
+    /* width: 250%; */
+    /* padding: 0.3rem; */
+    display: none;
+  }
 }
 
 
-@media only screen and (max-width: 480px) {
 
 
-}
-
-
-@media only screen and (max-width: 768px) {
-
-
-}
-
-
-
-@media only screen and (max-width: 1284px) {
-
-}    
+   

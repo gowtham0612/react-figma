@@ -12,7 +12,7 @@ const Subside = () => {
             <h1>Email</h1>
             <div className="heading-1">
               <div className="sub-heading-1">
-                <div div className="sub-kk">
+                <div div className="sub-head">
               <div>
               <svg
                 width="32"
@@ -85,11 +85,12 @@ const Subside = () => {
       {/* ------------------------------------------------ sub box --------------------------------------------------------------------- */}
      <div className="go">
       <div className="box">
+        <div className="button-mail">
         <button type="button" className="add-mail">
         + 
         <span className="label"> New Mail</span>
        
-        </button>
+        </button></div>
         <div className="sub-box-1">
           <div>
             <svg
@@ -459,6 +460,7 @@ const Subside = () => {
           <h6>More</h6>
         </div>
         <h4 className="label-font">Labels</h4>
+        <div className="label-icon">
         <div className="sub-box-2">
           <div>
             <svg
@@ -506,7 +508,7 @@ const Subside = () => {
             </svg>
           </div>
           <h6>Side Projects</h6>
-        </div>
+        </div></div>
       </div>
 
  {/*--------------------------------------------search icon----------------------------------------------------------------------------------- */}

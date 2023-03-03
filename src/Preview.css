@@ -8,13 +8,12 @@
     padding-top: 1.5rem;
   }
   .group-img img{
-    width: 40%;
-   height: 300%;
+    width: 200px;
+    height: 150px;
   }
   .right-content {
     padding: 1rem;
-     background: white;
-     
+    background-color: #fff;
   }
   .tour {
     padding-top: 15px;
@@ -141,14 +140,22 @@
       padding: 1rem;
   }
   /* ................................................................ */
-  @media screen and (max-width: 1284px) {
-
-}
-
-
-@media screen and (max-width: 1087px) {
-  .right-content{
-
+  @media only screen and (max-width: 557px) {
+  
+   .madison-des{
+    font-size: 12px; 
+   max-width: 100%;
   }
+  .group-img img{
+    width: 150px;
+    height: 100px;
+   }
 
-}
+  }   
+
+  @media only screen and (max-width: 350px) {
+    .group-img img{
+      width: 120px;
+      height: 100px;
+     }
+  }

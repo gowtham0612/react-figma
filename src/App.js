@@ -6,8 +6,10 @@ import './App.css';
 function App() {
   return (
   <div className="main-container">
-    <Sidebar/>
+   <div className='main-container-flex'>
+   <Sidebar/>
     <Subside />
+   </div>
     <Preview/>
   </div>
   );
