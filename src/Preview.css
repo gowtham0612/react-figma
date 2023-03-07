@@ -10,9 +10,11 @@
   .group-img img{
     width: 200px;
     height: 150px;
+    padding-bottom: 2rem;
   }
   .right-content {
-    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 3rem;
     background-color: #fff;
   }
   .tour {
@@ -104,6 +106,8 @@
     fill: #4E7D96;
   }
 .preview-1{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   display: flex;
   justify-content: space-between;
 }

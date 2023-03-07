@@ -517,7 +517,6 @@ const Subside = () => {
               <form className="example">
                 <input
                   type="text"
-                  placeholder="Search here.."
                   name="search"
                   autocomplete="off"
                 />
